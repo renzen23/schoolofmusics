@@ -1,0 +1,11 @@
+vendor/
+/site/
+.vscode/
+/report/
+
+.DS_Store
+npm-debug.log
+/selenium.log
+
+/tests/app/www
+/tests/artifacts

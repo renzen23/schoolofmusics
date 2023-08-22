@@ -1,0 +1,60 @@
+{
+    "name": "sensiolabs/behat-page-object-extension",
+    "type": "library",
+    "description": "Page object extension for Behat",
+    "keywords": [
+        "behat",
+        "bdd",
+        "page"
+    ],
+    "homepage": "https://github.com/sensiolabs/BehatPageObjectExtension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcello Duarte",
+            "email": "mduarte@inviqa.com"
+        },
+        {
+            "name": "Jakub Zalas",
+            "email": "jakub@zalas.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ~8.0",
+        "behat/behat": "^3.8",
+        "behat/mink": "^1.7",
+        "friends-of-behat/mink-extension": "^2.2",
+        "friendsofphp/proxy-manager-lts": "^1.0.2",
+        "composer/package-versions-deprecated": "^1.11.9"
+    },
+    "require-dev": {
+        "behat/mink-goutte-driver": "^1.2",
+        "fabpot/goutte": "^3.3.1",
+        "phpspec/phpspec": "^6.2 || ^7.0",
+        "symfony/filesystem": "^4.4 || ^5.2",
+        "symfony/dom-crawler": "^4.4.12 || ^5.2",
+        "symfony/dependency-injection": "^4.4.12 || ^5.2",
+        "symfony/config": "^4.4.12 || ^5.2",
+        "symfony/process": "^4.4 || ^5.2",
+        "symfony/yaml": "^4.4 || ^5.2"
+    },
+    "suggest": {
+        "bossa/phpspec2-expect": "Allows to use PHPSpec2 matchers in Behat context files"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SensioLabs\\Behat\\PageObjectExtension\\": "src/"
+        }
+    },
+    "conflict": {
+        "guzzlehttp/guzzle": "<6.3"
+    }
+}
