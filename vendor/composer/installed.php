@@ -3,7 +3,7 @@
         'name' => 'pantheon-systems/example-wordpress-composer',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '1a7afda4af6032c9344c20dd297ade0f54c37b9f',
+        'reference' => 'f95bb67f3f1546e4989ea7b8ecce267a31e6c202',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -325,7 +325,7 @@
         'pantheon-systems/example-wordpress-composer' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '1a7afda4af6032c9344c20dd297ade0f54c37b9f',
+            'reference' => 'f95bb67f3f1546e4989ea7b8ecce267a31e6c202',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

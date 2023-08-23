@@ -1,0 +1,311 @@
+/* -------------------------------------------- */
+// Search Input Field
+
+.search-input {
+  position: relative;
+  @include col(
+    (
+      xs: 12,
+      md: 4,
+    )
+  );
+  margin-bottom: 6rem;
+}
+
+form.searchbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  svg,
+  img {
+    &.search-icon {
+      position: absolute;
+      width: 1.5rem;
+      height: 1.5rem;
+      left: 1.5rem;
+      circle,
+      line,
+      path {
+        stroke: $darkgrey;
+      }
+      z-index: 10;
+    }
+  }
+  input {
+    width: 100%;
+    position: relative;
+    border-radius: 0.3rem;
+    height: 6.5rem;
+    @include karbon();
+    font-size: 2.4rem;
+    border: 1px solid #dedede;
+    line-height: 1;
+    color: $grey;
+    background: $lighter;
+    transition: none;
+    text-align: left;
+    padding: 2rem;
+    padding-left: 4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: none !important;
+    box-shadow: none !important;
+
+    &:hover {
+      border-color: $grey;
+    }
+    &:active,
+    &:focus,
+    &.active {
+      color: $darkgrey !important;
+      border-color: $grey;
+
+      svg path {
+        fill: $darkgrey;
+      }
+    }
+    &:active,
+    &:focus,
+    &:hover,
+    &.active {
+      outline: none;
+    }
+  }
+}
+
+/* -------------------------------------------- */
+// Dropdown Input Field
+
+.dropdown-input {
+  position: relative;
+  z-index: 100;
+
+  @include col(
+    (
+      xs: 12,
+      md: 4,
+    )
+  );
+  margin-bottom: 6rem;
+
+  &.dropdown-small {
+    @include col(
+      (
+        xs: 12,
+        md: 1.5,
+      )
+    );
+  }
+
+  button {
+    height: 6.5rem;
+    width: 100%;
+    @include karbon();
+    font-size: 2.4rem;
+    border-color: $light;
+    line-height: 1;
+    color: $grey;
+    background: $lighter;
+    border-radius: 0;
+    transition: none;
+    text-align: left;
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    svg.arrow-down-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      path {
+        fill: $grey;
+        stroke: none;
+      }
+    }
+    &:hover {
+      border-color: $grey;
+    }
+    &:not(.event-filter-dropdown) {
+      &:active,
+      &:focus,
+      &.active {
+        border-color: white !important;
+        background: $blue-gradient !important;
+        color: white !important;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        svg {
+          transform: translate(180deg);
+          path {
+            fill: $yellow;
+          }
+        }
+      }
+    }
+    &:active,
+    &:focus,
+    &:hover,
+    &.active {
+      outline: none;
+    }
+  }
+  ul.dropdown-menu {
+    position: relative;
+    top: calc(6.5rem - 1px) !important;
+    left: 1.5rem !important;
+    transform: translate(0, 0) !important;
+    width: calc(100% - 3rem);
+    border-radius: 0;
+    background: $light;
+    padding: 0;
+    margin: 0;
+    border: 1px solid white;
+    z-index: 100;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+    li {
+      font-size: 2.4rem;
+      padding: 0;
+      a {
+        display: block;
+        padding: 2rem;
+        @include karbon();
+        font-weight: 400;
+        @include padding-x(2rem);
+        @include padding-y(0.5rem);
+        color: $grey;
+
+        &:hover {
+          color: white;
+          text-decoration: none;
+          background: $blue-gradient-light;
+        }
+      }
+    }
+  }
+}
+
+/* -------------------------------------------- */
+// Datepicker Container Dropdown
+
+.datepick-container {
+  position: relative;
+  height: 7.4rem;
+  @include padding-x(2rem);
+  padding-top: 3.4rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  justify-content: space-between;
+
+  @include media-breakpoint-down(sm) {
+    border-bottom: 1px solid $lightgrey;
+  }
+
+  * {
+    cursor: pointer;
+  }
+
+  h3 {
+    position: absolute;
+    left: 2rem;
+    top: 1.8rem;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  &:before {
+    @include cover();
+    background: $primary;
+    width: 0.6rem;
+    height: 2.2rem;
+    top: 3.2rem;
+    visibility: hidden;
+  }
+  &:hover {
+    input {
+      color: $primary;
+    }
+    &:before {
+      visibility: visible;
+    }
+  }
+
+  &:not(.event-filter-dropdown) &.calendar {
+    background: $blue-gradient;
+    h3 {
+      opacity: 0.8;
+      color: white !important;
+    }
+    &:before {
+      visibility: hidden;
+    }
+    input,
+    .input-group-append,
+    .input-group-text {
+      background: none !important;
+      color: white;
+    }
+    .input-group-text {
+      svg {
+        path {
+          fill: $yellow;
+        }
+        &.arrow-down-icon {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: 1px solid white;
+  }
+
+  input {
+    height: 2rem;
+    @include karbon();
+    text-transform: uppercase;
+    padding: 0 !important;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: $darkgrey;
+    background: none !important;
+    line-height: 1;
+    @include bold();
+    border: none !important;
+  }
+
+  .input-group-append {
+    display: inline-block;
+    margin-left: 0;
+    background: none !important;
+    height: 2rem;
+    right: 2rem;
+    position: absolute;
+  }
+  .input-group-text {
+    padding: 0 !important;
+    background: none;
+    svg {
+      path {
+        stroke: unset;
+        fill: $primary;
+      }
+      &.calendar-icon {
+        width: 1.9rem;
+        height: 1.9rem;
+        margin-right: 0.8rem;
+      }
+      &.arrow-down-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+  .form-control {
+    border: none;
+  }
+  .pika-container {
+    box-shadow: none;
+  }
+}

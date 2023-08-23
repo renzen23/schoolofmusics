@@ -1,0 +1,999 @@
+# Translation of Community Events in Ukrainian
+# This file is distributed under the same license as the Community Events package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-27 16:24:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Community Events\n"
+
+#: src/views/community/modules/taxonomy.php:94
+msgctxt "taxonomy selector ajax search placeholder"
+msgid "Searching…"
+msgstr ""
+
+#: src/views/community/modules/header-links.php:27
+msgid "Edit Venue"
+msgstr ""
+
+#: src/views/community/modules/header-links.php:25
+msgid "Edit Organizer"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:403
+msgctxt "field label for post tags"
+msgid "Tag"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:400
+msgctxt "field label for event categories"
+msgid "%s Category"
+msgstr ""
+
+#: src/views/community/modules/taxonomy.php:95
+msgid "Search from existing %s"
+msgstr ""
+
+#: src/views/community/modules/taxonomy.php:59
+msgid "terms"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:234
+msgid "Users can delete their events"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:225
+msgid "Users can edit their events, venues, and organizers"
+msgstr ""
+
+#: src/views/community/modules/website.php:48
+msgid "Enter URL for event information"
+msgstr ""
+
+#: src/views/community/modules/website.php:45
+msgid "External Link:"
+msgstr ""
+
+#: src/views/community/modules/image.php:73
+msgid "Choose Image"
+msgstr ""
+
+#: src/views/community/modules/image.php:64
+msgid "Selected:"
+msgstr ""
+
+#: src/views/community/modules/image.php:52
+msgid "Uploaded:"
+msgstr ""
+
+#: src/views/community/modules/image.php:43
+msgid "Choose a .jpg, .png, or .gif file under %1$s in size."
+msgstr ""
+
+#: src/views/community/modules/header-links.php:39
+msgid "View Your Submitted Events"
+msgstr ""
+
+#: src/views/community/modules/header-links.php:29
+msgid "Add New Event"
+msgstr ""
+
+#: src/views/community/modules/header-links.php:23
+msgid "Edit Event"
+msgstr ""
+
+#: src/views/community/event-list.php:159
+msgid "You have no upcoming %s"
+msgstr ""
+
+#: src/views/community/event-list.php:157
+msgid "You have no past %s"
+msgstr ""
+
+#: src/views/community/event-list.php:66
+msgid "Display Option"
+msgstr ""
+
+#: src/views/community/event-list.php:50
+msgid "Search Event Titles"
+msgstr ""
+
+#: src/functions/template-tags.php:638
+msgid "Past events"
+msgstr ""
+
+#: src/functions/template-tags.php:632
+msgid "Upcoming events"
+msgstr ""
+
+#: src/Tribe/Main.php:1097 src/views/community/modules/image.php:83
+msgid "Remove image"
+msgstr ""
+
+#: src/Tribe/Event_Form.php:30
+msgctxt "Tribe Community Events fallback post title"
+msgid "Auto Draft"
+msgstr ""
+
+#: src/views/community/modules/image.php:76
+msgid "Upload File"
+msgstr ""
+
+#: src/views/community/modules/image.php:70
+msgid "Event Image"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:171
+msgid "All Day Event"
+msgstr "Подія на весь день"
+
+#: src/views/community/modules/datepickers.php:147
+msgid "Timezone"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:130
+msgid "Event End Date"
+msgstr "Дата закінчення події"
+
+#: src/views/community/modules/datepickers.php:112
+msgid "Event End Time"
+msgstr "Час закінчення події"
+
+#: src/views/community/modules/datepickers.php:108
+msgctxt "Start Date Time \"to\" End Date Time"
+msgid "to"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:107
+#: src/views/community/modules/datepickers.php:126
+msgid "HH:MM"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:93
+msgid "Event Start Time"
+msgstr "Час початку заходу"
+
+#: src/views/community/modules/datepickers.php:79
+msgid "Event Start Date"
+msgstr "Дата початку події"
+
+#: src/views/community/modules/datepickers.php:74
+msgid "Start/End:"
+msgstr ""
+
+#: src/views/community/modules/cost.php:80
+msgid "Events Currency Position"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:147
+msgctxt "Click path in The Events Calendar settings to get to the API settings section separated by right arrows (HTML \"&rarr;\")"
+msgid "Events &rarr; Settings &rarr; APIs"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:142
+msgid "To enable spam prevention for anonymous submissions, enter your reCAPTCHA API keys under <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:140
+msgid "Spam Prevention"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:132
+msgid "Users will be limited to choosing from existing organizers."
+msgstr ""
+
+#: src/admin-views/community-options-template.php:131
+msgid "Users cannot create new Organizers"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:123
+msgid "Users will be limited to choosing from existing venues."
+msgstr ""
+
+#: src/admin-views/community-options-template.php:122
+msgid "Users cannot create new Venues"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha_V2.php:139
+msgctxt "failed recaptcha response validation"
+msgid "reCAPTCHA verification failed"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:290
+msgid "Redirect for users who attempt to access the admin without permissions<br>Enter a full url to a post or page on your site<br>Leave blank for homepage"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:453
+msgid "URL"
+msgstr "URL"
+
+#: src/Tribe/Submission_Handler.php:449
+msgid "Zip"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:445
+msgid "State"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:441
+msgid "Province"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:429 src/Tribe/Submission_Handler.php:461
+msgid "Name"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:376
+msgid "%s %s is required"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:247 src/Tribe/Captcha/Recaptcha_V2.php:125
+msgctxt "failed recaptcha response"
+msgid "reCAPTCHA failed unexpectedly"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:97
+msgid "<p>Community Events enables users to submit events through a form on your site. Whether soliciting contributions from anonymous users or registered members, you have complete editorial control over what makes it onto the calendar.</p><p>Check out our <a href=\"%s\">Community Events New User Primer</a> for information on configuring and using the plugin."
+msgstr ""
+
+#: src/admin-views/community-options-template.php:329
+msgid "Removes the country, state/province and timezone selectors from the submission form"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:328
+msgid "Single geography mode"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:536
+msgid "Invalid URL provided for %s"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:197
+msgid "The file is not a valid image"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:194
+msgid "The image size is invalid"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:177 src/Tribe/Submission_Handler.php:191
+msgid "The file is not an Image"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://m.tri.be/21"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Modern Tribe, Inc."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Community Events is an add-on providing additional functionality to the open source plugin The Events Calendar. Empower users to submit and manage their events on your website. <a href=\"http://tri.be/shop/wordpress-community-events/?utm_campaign=in-app&utm_source=docblock&utm_medium=plugin-community\">Check out the full feature list</a>. Need more features? Peruse our selection of <a href=\"http://tri.be/products/?utm_campaign=in-app&utm_source=docblock&utm_medium=plugin-community\" target=\"_blank\">plugins</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Events Calendar: Community Events"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:150
+msgid "Timezone:"
+msgstr ""
+
+#: src/views/community/modules/cost.php:83
+msgctxt "Currency symbol position"
+msgid "After cost"
+msgstr ""
+
+#: src/views/community/modules/cost.php:82
+msgctxt "Currency symbol position"
+msgid "Before cost"
+msgstr ""
+
+#: src/Tribe/Main.php:1611
+msgid "The file you attempted to upload exceeded the maximum file size of %1$s."
+msgstr ""
+
+#: vendor/wp-router/WP_Router_Utility.class.php:49
+msgid "%1$s requires WordPress %2$s or higher and PHP %3$s or higher."
+msgstr "%1$s потрібно WordPress %2$s або вище та PHP %3$s або вище."
+
+#: vendor/wp-router/WP_Router_Page.class.php:74
+msgid "WP Router Placeholder Page"
+msgstr "Сторінка WP Router Placeholder"
+
+#: vendor/wp-router/WP_Route.class.php:251
+msgid "Access Denied"
+msgstr "Доступ заборонено"
+
+#: vendor/wp-router/WP_Route.class.php:250
+msgid "You are not authorized to access this page"
+msgstr "Ви не авторизувались для доступу до цієї сторінки"
+
+#: vendor/wp-router/WP_Route.class.php:80
+msgid "Invalid value for %1$s: %2$s. Value must be an array."
+msgstr "Недопустиме значення для %1$s: %2$s. Значення має бути масивом."
+
+#: vendor/wp-router/WP_Route.class.php:77
+msgid "Invalid value for %s. Value may not be empty."
+msgstr "Недопустиме значення для %s. Значення не має бути порожнім."
+
+#: vendor/wp-router/WP_Route.class.php:63
+msgid "Property not found: %s."
+msgstr "Властивості не знайдено: %s."
+
+#: vendor/wp-router/WP_Route.class.php:36
+msgid "Missing %s"
+msgstr "Пропущено %s"
+
+#: tribe-community-events.php:89
+msgid "To begin using The Events Calendar: Community Events, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr "Для початку використання The Events Calendar: Community Events, будь ласка встановіть останню версію <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+
+#: tribe-community-events.php:88
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: src/views/community/modules/website.php:27
+msgid "%s Website"
+msgstr ""
+
+#: src/views/community/modules/venue-fields.php:159
+msgid "Show Google Map"
+msgstr "Показати Google Map"
+
+#: src/views/community/modules/venue-fields.php:173
+msgid "Show Google Maps Link"
+msgstr "Показати Google Maps посилання"
+
+#: src/views/community/modules/venue-fields.php:113
+msgid "Postal Code"
+msgstr "Поштовий індекс"
+
+#: src/views/community/modules/venue-fields.php:98
+msgid "Select a State"
+msgstr "Виберіть країну"
+
+#: src/views/community/modules/venue-fields.php:84
+msgid "State or Province"
+msgstr "Область або край"
+
+#: src/views/community/modules/venue-fields.php:66
+msgid "Country"
+msgstr "Країна"
+
+#: src/Tribe/Submission_Handler.php:437
+#: src/views/community/modules/venue-fields.php:52
+msgid "City"
+msgstr "Місто"
+
+#: src/Tribe/Submission_Handler.php:433
+#: src/views/community/modules/venue-fields.php:37
+msgid "Address"
+msgstr "Адреса"
+
+#: src/views/community/modules/custom.php:113
+msgid "None"
+msgstr "Жоден"
+
+#: src/Tribe/Submission_Handler.php:469
+#: src/views/community/modules/organizer-fields.php:75
+msgid "Email"
+msgstr "Email"
+
+#: src/Tribe/Submission_Handler.php:465
+#: src/views/community/modules/organizer-fields.php:70
+#: src/views/community/modules/venue-fields.php:143
+msgid "Website"
+msgstr "Сайт"
+
+#: src/Tribe/Submission_Handler.php:457
+#: src/views/community/modules/organizer-fields.php:64
+#: src/views/community/modules/venue-fields.php:128
+msgid "Phone"
+msgstr "Телефон"
+
+#: src/views/community/modules/organizer-fields.php:56
+msgid "%s Name"
+msgstr ""
+
+#: src/views/community/modules/organizer-fields.php:44
+#: src/views/community/modules/organizer.php:32
+#: src/views/community/modules/venue-fields.php:29
+#: src/views/community/modules/venue.php:37
+msgid "%s Details"
+msgstr ""
+
+#: src/views/community/modules/image.php:19
+msgid "%s Image"
+msgstr ""
+
+#: src/views/community/modules/delete.php:24
+msgid "My %s"
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:89
+#: src/views/community/modules/datepickers.php:140
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#: src/views/community/modules/datepickers.php:68
+msgid "You have changed the recurrence rules of this %1$s. Saving the %1$s will update all future %2$s.  If you did not mean to change all %2$s, then please refresh the page."
+msgstr ""
+
+#: src/views/community/modules/datepickers.php:50
+msgid "%s Time &amp; Date"
+msgstr ""
+
+#: src/views/community/modules/custom.php:126
+msgctxt "custom field label"
+msgid "%s:"
+msgstr ""
+
+#: src/views/community/modules/custom.php:32
+msgid "Additional Fields"
+msgstr "Додаткові поля"
+
+#: src/views/community/modules/cost.php:95
+msgid "Leave blank to hide the field. Enter a 0 for %s that are free."
+msgstr ""
+
+#: src/views/community/modules/cost.php:90
+msgid "Cost:"
+msgstr ""
+
+#: src/views/community/modules/cost.php:63
+msgid "Currency Symbol:"
+msgstr ""
+
+#: src/views/community/modules/cost.php:45
+msgid "%s Cost"
+msgstr ""
+
+#: src/views/community/modules/captcha.php:31
+msgid "Anti-Spam Check"
+msgstr ""
+
+#: src/views/community/columns/recurring.php:22
+msgid "No"
+msgstr "Ні"
+
+#: src/views/community/columns/recurring.php:20
+msgid "Yes"
+msgstr "Так"
+
+#: src/functions/template-tags.php:597
+msgid "End Date"
+msgstr "Дата завершення"
+
+#: src/functions/template-tags.php:596
+msgid "Start Date"
+msgstr "Дата початку"
+
+#: src/functions/template-tags.php:593
+msgid "Recurring?"
+msgstr "Нова?"
+
+#: src/functions/template-tags.php:589
+msgid "Category"
+msgstr "Категорія"
+
+#: src/functions/template-tags.php:586
+msgid "Title"
+msgstr "Назва"
+
+#: src/functions/template-tags.php:585
+msgid "Status"
+msgstr "Статус"
+
+#: src/views/community/modules/delete.php:29
+msgid "Log Out"
+msgstr "Вихід"
+
+#: src/views/community/modules/delete.php:28
+msgid "Not"
+msgstr "Ні"
+
+#: src/views/community/event-list.php:35
+#: src/views/community/modules/delete.php:20
+msgid "Add New"
+msgstr "Додати нову"
+
+#: src/views/community/email-template.php:48
+msgid "View %s"
+msgstr ""
+
+#: src/views/community/email-template.php:46
+msgid "Review %s"
+msgstr ""
+
+#: src/views/community/email-template.php:35
+msgid "Description"
+msgstr "Опис"
+
+#: src/views/community/email-template.php:32
+msgid "%s Venue"
+msgstr ""
+
+#: src/views/community/email-template.php:29
+msgid "%s Organizer"
+msgstr ""
+
+#: src/views/community/edit-organizer.php:30
+#: src/views/community/edit-venue.php:29
+msgid "%s Name:"
+msgstr ""
+
+#: src/views/community/edit-organizer.php:67
+#: src/views/community/modules/submit.php:23
+msgid "Submit %s"
+msgstr ""
+
+#: src/views/community/edit-organizer.php:67
+#: src/views/community/edit-venue.php:65
+#: src/views/community/modules/submit.php:21
+msgid "Update %s"
+msgstr ""
+
+#: src/views/community/edit-organizer.php:41
+#: src/views/community/edit-venue.php:40
+#: src/views/community/modules/description.php:28
+msgid "%s Description:"
+msgstr ""
+
+#: src/views/community/modules/title.php:28
+msgid "%s Title:"
+msgstr ""
+
+#: src/functions/template-tags.php:515
+#: src/views/community/edit-organizer.php:31
+#: src/views/community/edit-venue.php:30
+msgid "(required)"
+msgstr "(обов'язково)"
+
+#: src/admin-views/community-options-template.php:317
+msgid "Default organizer for submitted events"
+msgstr "Організатор за замовчуванням для активних подій"
+
+#: src/admin-views/community-options-template.php:306
+msgid "Default venue for submitted events"
+msgstr "Місце проведення за замовчуванням для активних подій"
+
+#: src/admin-views/community-options-template.php:300
+msgid "Form Defaults"
+msgstr ""
+
+#: src/admin-views/community-options-template.php:289
+msgid "Redirect URL"
+msgstr "URL для перенаправлення"
+
+#: src/admin-views/community-options-template.php:279
+msgid "Roles to block"
+msgstr "Ролі блокування"
+
+#: src/admin-views/community-options-template.php:271
+msgid "Also disables the admin bar"
+msgstr "Відключає також бар адміністратора"
+
+#: src/admin-views/community-options-template.php:270
+msgid "Block access to WordPress dashboard"
+msgstr "Блогування доступу до панелі налаштувань WordPress "
+
+#: src/admin-views/community-options-template.php:265
+msgid "Access Control"
+msgstr "Контроль доступу"
+
+#: src/admin-views/community-options-template.php:257
+msgid "This is the number of events displayed per page"
+msgstr "Це число подій, які відображаються на сторінці"
+
+#: src/admin-views/community-options-template.php:256
+msgid "Events per page"
+msgstr "Подій на сторінку"
+
+#: src/admin-views/community-options-template.php:242
+msgid "Deleted events should be:"
+msgstr "Видалити події, які повинні бути:"
+
+#: src/admin-views/community-options-template.php:233
+msgid "Remove their submissions"
+msgstr "Видалити їх матеріали"
+
+#: src/admin-views/community-options-template.php:224
+msgid "Edit their submissions"
+msgstr "Редагувати їх матеріали"
+
+#: src/admin-views/community-options-template.php:219
+msgid "Control the permissions for your logged in users. Allow them to:"
+msgstr "Контроль дозволів для авторизованих користувачів. Дозволити їм:"
+
+#: src/admin-views/community-options-template.php:214
+msgid "Members"
+msgstr "Користувачі"
+
+#: src/admin-views/community-options-template.php:208
+msgid "One address per line"
+msgstr "Одна адреса у строчці"
+
+#: src/admin-views/community-options-template.php:205
+msgid "Email addresses to be notified"
+msgstr "Email адреса для нагадування"
+
+#: src/admin-views/community-options-template.php:197
+msgid "Send an email alert when a new event is submitted"
+msgstr "Сповістити мене на email, коли буде додано нову подію"
+
+#: src/admin-views/community-options-template.php:192
+msgid "Alerts"
+msgstr "Сповіщення"
+
+#: src/admin-views/community-options-template.php:179
+msgid "The slug used for building the community events URL - it is appended to the main events slug. Your current community events URLs are"
+msgstr "Коротка ссилка використовується для побудови URL суспільних подій - вона додається до ссилки головних подій. Ваші поточні суспільні події URL-адреси є"
+
+#: src/admin-views/community-options-template.php:175
+msgid "Community rewrite slug"
+msgstr "Перезапис короткого посилання спільноти"
+
+#: src/admin-views/community-options-template.php:165
+msgid "Default status for submitted events"
+msgstr "Статус за замовчуванням для представлених подій"
+
+#: src/admin-views/community-options-template.php:157
+msgid "Use visual editor for event descriptions"
+msgstr "Використати візуальний показ для редагування події"
+
+#: src/admin-views/community-options-template.php:114
+msgid "Check this box to allow users to submit events without having a WordPress account"
+msgstr "Встановіть цей прапорець, щоб користувачі могли додавати події, не маючи доступу до WordPress"
+
+#: src/admin-views/community-options-template.php:113
+msgid "Allow anonymous submissions"
+msgstr "Дозволити анонімні матеріали"
+
+#: src/admin-views/community-options-template.php:107
+msgid "General"
+msgstr "Головні"
+
+#: src/admin-views/community-options-template.php:92
+msgid "Community Events Settings"
+msgstr "Налаштування Community Events"
+
+#: src/admin-views/community-options-template.php:76
+msgid "Use New Venue/No Default"
+msgstr "Використати нове місце проведення/Не за замовчуванням"
+
+#: src/admin-views/community-options-template.php:64
+msgid "No Default"
+msgstr "Не за замовчуванням"
+
+#: src/admin-views/community-options-template.php:53
+msgid "Permanently Deleted"
+msgstr "Остаточно видалені"
+
+#: src/admin-views/community-options-template.php:52
+msgid "Placed in the Trash"
+msgstr "Переміщено у смітник"
+
+#: src/Tribe/Submission_Handler.php:567
+msgid "The uploaded image could not be processed"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:563
+msgid "The image failed to upload successfully"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:558
+msgid "Image exceeded the allowed file size"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:516
+msgid "Images must be png, jpg, or gif"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:505
+msgid "Invalid value for %s"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:391
+msgid "%s Description"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:388
+msgid "%s Title"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:222
+msgid "%s is required"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:105
+msgid "There was a problem submitting your %s, please try again."
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:101
+msgid "%s submitted."
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:86
+msgid "There was a problem saving your %s, please try again."
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:83 src/Tribe/Submission_Handler.php:102
+msgid "Submit another %s"
+msgstr ""
+
+#: src/Tribe/Submission_Handler.php:82
+msgid "%s updated. "
+msgstr ""
+
+#: src/Tribe/Main.php:2855
+msgid "Settings"
+msgstr "Налаштування"
+
+#: src/Tribe/Main.php:2839 src/Tribe/Templates.php:47
+msgid "Community Events"
+msgstr "Суспільні Події"
+
+#: src/Tribe/Main.php:2830
+msgid "Community: My %s"
+msgstr ""
+
+#: src/Tribe/Main.php:2822
+msgid "Community: Submit %s"
+msgstr ""
+
+#: src/Tribe/Main.php:2591
+msgid "This template is also used for Community Events."
+msgstr "Цей шаблон також використовується для  Community Events."
+
+#: src/Tribe/Main.php:2574
+msgid "Community"
+msgstr "Спільнота"
+
+#: src/Tribe/Main.php:2335
+msgid "The requested page number was not found."
+msgstr "Номер сторінки по запиту не було знайдено."
+
+#: src/views/community/modules/spam-control.php:32
+msgid "Fake Title"
+msgstr "Не правильна назва"
+
+#: src/Tribe/Main.php:2112
+msgid "Please log in to view your events"
+msgstr "Будь ласка увійдіть для перегляду ваших подій."
+
+#: src/Tribe/Main.php:2029
+msgid "There was a problem updating this organizer, please try again."
+msgstr "Виникла проблема з оновлення цього організатора, спробуйте ще раз."
+
+#: src/Tribe/Main.php:2025
+msgid "Organizer name cannot be blank."
+msgstr "Ім'я організатор не може бути порожнім."
+
+#: src/Tribe/Main.php:2014
+msgid "Organizer updated."
+msgstr "Організатора оновлено."
+
+#: src/Tribe/Main.php:1992
+msgid "You do not have permission to edit this organizer."
+msgstr "Ви не маєте дозволу редагувати цього організатора."
+
+#: src/Tribe/Main.php:1988
+msgid "Please log in to edit this organizer"
+msgstr "Будь ласка, увійдіть, щоб змінити цього організатора"
+
+#: src/Tribe/Main.php:1984
+msgid "Organizer not found."
+msgstr "Організатора не знайдено."
+
+#: src/Tribe/Main.php:1947
+msgid "There was a problem updating your venue, please try again."
+msgstr "Виникла проблема з оновленням місця, спробуйте ще раз."
+
+#: src/Tribe/Main.php:1943
+msgid "Venue name cannot be blank."
+msgstr "Назва місця проведення не може бути порожньою."
+
+#: src/Tribe/Main.php:1933
+msgid "Venue updated."
+msgstr "Місце оновлено."
+
+#: src/Tribe/Main.php:1910
+msgid "You do not have permission to edit this venue."
+msgstr "Ви не маєте дозволу для редагування цього місця зустрічі."
+
+#: src/Tribe/Main.php:1906
+msgid "Please log in to edit this venue"
+msgstr "Будь ласка, увійдіть, щоб відредагувати це місце"
+
+#: src/Tribe/Main.php:1901
+msgid "Venue not found."
+msgstr "Місце проведення не найдено."
+
+#: src/Tribe/Main.php:1770 src/views/community/columns/title.php:41
+msgid "Edit"
+msgstr ""
+
+#: src/Tribe/Main.php:1764 src/views/community/columns/title.php:35
+msgid "View"
+msgstr "Перегляд"
+
+#: src/Tribe/Main.php:1605
+msgid "You do not have permission to edit this %s."
+msgstr ""
+
+#: src/Tribe/Main.php:1599
+msgid "Please log in first."
+msgstr "Будь ласка спершу зареєструйтесь."
+
+#: src/Tribe/Main.php:1591
+msgid "%s not found."
+msgstr ""
+
+#: src/Tribe/Main.php:1582
+msgid "%sWarning:%s You are editing a recurring %s. All changes will be applied to the entire series."
+msgstr ""
+
+#: src/Tribe/Main.php:1537
+msgctxt "As in \"go back to previous page\""
+msgid "Back"
+msgstr ""
+
+#: src/Tribe/Main.php:1521
+msgid "You do not have permission to delete this event."
+msgstr "Ви не має дозволу на видалення цієї події."
+
+#: src/Tribe/Main.php:1518
+msgid "This event (#%s) does not appear to exist."
+msgstr "Ця подія (#%s), здається, не існує."
+
+#: src/Tribe/Main.php:1515
+msgid "Deleted Event #"
+msgstr "Видалена подія #"
+
+#: src/Tribe/Main.php:1512
+msgid "Trashed Event #"
+msgstr "Видалені події #"
+
+#: src/Tribe/Main.php:1420
+msgid "Community Events Submission"
+msgstr "Представлення Community Events"
+
+#: src/Tribe/Main.php:1267
+msgid "This shortcode can only be used in pages."
+msgstr "Цей шоткод може бути використано тільки для сторінок."
+
+#: src/Tribe/Main.php:1114 src/Tribe/Main.php:1121
+msgid "Unknown Post Type"
+msgstr "Невідомий тип повідомлення"
+
+#: src/Tribe/Main.php:1113
+msgid "Remove an Organizer"
+msgstr "Видалити організатора"
+
+#: src/Tribe/Main.php:1112
+msgid "Remove a Venue"
+msgstr "Видалити місце"
+
+#: src/Tribe/Main.php:1041
+msgid "Are you sure you want to permanently delete this instance of a recurring event?"
+msgstr "Ви впевнені, що хочете назавжди видалити цей екземпляр повторюваної події?"
+
+#: src/Tribe/Main.php:1039
+msgid "Are you sure you want to permanently delete all instances of this recurring event?"
+msgstr ""
+
+#: src/Tribe/Main.php:1038
+msgid "Delete All"
+msgstr ""
+
+#: src/Tribe/Main.php:1035
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: src/Tribe/Main.php:1034
+msgid "Delete"
+msgstr "Видалити"
+
+#: src/Tribe/Main.php:950
+msgid "Community Events requires non-default (pretty) permalinks to be enabled or the [tribe_community_events] shortcode to exist on a page."
+msgstr "Якщо потрібно використовувати  Сommunity Events не за замовчуванням, досить включити шорткод [tribe_community_events] на потрібну сторінку."
+
+#: src/Tribe/Main.php:804
+msgid "Not found."
+msgstr "Не знайдено."
+
+#: src/Tribe/Main.php:720 src/Tribe/Main.php:1207
+#: src/admin-views/community-options-template.php:251
+#: src/views/community/event-list.php:30
+msgid "My Events"
+msgstr "Мої події"
+
+#: src/Tribe/Main.php:704 src/Tribe/Main.php:1111
+msgid "Remove an Event"
+msgstr "Видалити подію"
+
+#: src/Tribe/Main.php:678 src/Tribe/Main.php:1229
+msgid "Submit an Event"
+msgstr "Підтвердити подію"
+
+#: src/Tribe/Main.php:663
+msgid "Redirect"
+msgstr "Перенаправити"
+
+#: src/Tribe/Main.php:645 src/Tribe/Main.php:1118
+msgid "Edit an Event"
+msgstr "Редагувати подію"
+
+#: src/Tribe/Main.php:627 src/Tribe/Main.php:1120
+msgid "Edit an Organizer"
+msgstr "Редагувати організатора"
+
+#: src/Tribe/Main.php:608 src/Tribe/Main.php:1119
+msgid "Edit a Venue"
+msgstr "Редагувати місце проведення"
+
+#: src/Tribe/Main.php:2899
+msgid "event"
+msgstr "подія"
+
+#: src/Tribe/Main.php:2898
+msgid "organizer"
+msgstr "організатор"
+
+#: src/Tribe/Main.php:2897
+msgid "venue"
+msgstr "місце проведення"
+
+#: src/Tribe/Main.php:2895 src/admin-views/community-options-template.php:359
+msgid "list"
+msgstr "список"
+
+#: src/Tribe/Main.php:2894
+msgid "delete"
+msgstr "видалити"
+
+#: src/Tribe/Main.php:2893 src/admin-views/community-options-template.php:357
+msgid "add"
+msgstr "додати"
+
+#: src/Tribe/Main.php:2892
+msgid "edit"
+msgstr "редагувати"
+
+#: src/Tribe/Captcha/Recaptcha.php:39
+msgid "Get your Secret Key at %s"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:38
+msgid "Secret Key"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:29
+msgid "Get your Site Key at %s"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:28
+msgid "Site Key"
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:24
+msgid "Note: reCAPTCHA only appears for users who are not logged in."
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:24
+msgid "Provide reCAPTCHA API keys for both fields to enable reCAPTCHA on your Community Events form."
+msgstr ""
+
+#: src/Tribe/Captcha/Recaptcha.php:20
+msgid "reCAPTCHA API Keys"
+msgstr ""
+
+#: src/Tribe/Captcha/Abstract_Captcha.php:152
+msgid "Invalid value for the Anti-Spam Check"
+msgstr ""

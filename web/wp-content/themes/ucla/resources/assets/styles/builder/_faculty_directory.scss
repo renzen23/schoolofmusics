@@ -1,0 +1,23 @@
+section.b-faculty-directory {
+	[v-cloak] {
+		display: none !important;
+	}
+
+	.fade-enter-active {
+		transition: opacity .5s;
+	}
+	.fade-enter,
+	.fade-leave-active {
+		opacity: 0;
+	}
+
+  span {
+    margin-left: 0;
+  }
+
+  &.department-name {
+    font-family: $font-main;
+    font-weight: normal;
+  }
+
+}

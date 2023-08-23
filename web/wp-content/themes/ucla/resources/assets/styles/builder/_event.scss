@@ -1,0 +1,385 @@
+section.b-event {
+    .event-row {
+        justify-content: space-between;
+    }
+    
+    @include media-breakpoint-down(sm) {
+        .event-box {
+            position: relative;
+            width: 100%;
+            right: unset;
+            left: unset;
+            top: unset;
+            @include padding-x(1.5rem !important);
+            display: flex;
+            margin-bottom: 2rem;
+            
+            .event-details {
+                text-align: left;
+                margin-left: 2rem;
+            }
+            
+            .social-shares {
+                margin-top: 0;
+                li {
+                    @include padding-x(1rem);
+                }
+                margin-left: 2rem;
+            }
+            
+            .calendar-links {
+                @include col(auto);
+                margin-left: auto;
+                
+                a {
+                    height: 3.5rem;
+                    width: 3.5rem;
+                    padding: 0;
+                    margin: 0;
+                    border-radius: 0;
+                    margin-left: 0;
+                    margin-bottom: .5rem;
+                    background: none;
+                    
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    .content {
+        @include col((
+        xs: 12,
+        sm: 12,
+        lg: 12,
+        ));
+        
+        .categories {
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            @include bold();
+            @include karbon();
+            margin-bottom: 1rem;
+            color: $primary-accessible;
+        }
+        
+        .title {
+            @include karbon();
+            @include light();
+            @include font-size((
+            xs: 3.8rem,
+            lg: 5.8rem,
+            ));
+            line-height: .85;
+            color: $primary;
+        }
+        
+        .subtitle {
+            @include karbon();
+            font-size: 2.4rem;
+            margin-top: 2.5rem;
+            color: $darkgrey;
+        }
+        
+        .text {
+            color: $grey;
+            padding-top: 4rem;
+            span {
+                color: $darkblue;
+            }
+            p {
+                margin-bottom: 1.6rem;
+            }
+            ul {
+                list-style-type: disc;
+                padding-left: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    
+    .calendar-links {
+        a {
+            background-color: $light;
+            padding: 5px;
+            border-radius: 3px;
+            color: $darkgrey;
+            font-family: $font-main;
+            text-transform: uppercase;
+            font-size: rem(12px);
+            font-weight: bold;
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            svg {
+                max-width: 3.5rem;
+                fill: $darkgrey;
+                display: block;
+            }
+            
+            span {
+                overflow: hidden;
+                max-height: 0;
+                transition: max-height .25s;
+            }
+            
+            &:hover {
+                text-decoration: none;
+                
+                span {
+                    height: auto;
+                    max-height: 100px;
+                    transition: max-height .25s;
+                }
+            }
+        }
+    }
+}
+
+section.b-alert {
+    .alert-row {
+        background: $light;
+        @include padding-y(12rem);
+        @include padding-x(16rem);
+        text-align: center;
+        color: $darkgrey;
+        align-items: center;
+        justify-content: center;
+    }
+    .message {
+        font-size: 2rem;
+        h3 {
+            @include karbon();
+            font-size: 3.8rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .button-wrapper {
+        margin-top: 6rem;
+        display: flex;
+        .cta-button {
+            border-radius: 4rem;
+            font-size: 1.4rem;
+            background: $lightblue;
+            text-align: center;
+            line-height: 1;
+            color: white;
+            @include padding-y(2rem);
+            @include padding-x(4rem);
+            margin-right: 2rem;
+            transition: background .2s ease;
+            @include bold();
+            letter-spacing: .05rem;
+            
+            &:last-child() {
+                margin-right: 0;
+            }
+            
+            &:hover {
+                text-decoration: none;
+                background: $darkblue;
+            }
+        }
+    }
+}
+
+#tribe-bar-form label, #tribe-bar-dates label {
+    color: $grey-accessible;
+}
+
+#tribe-bar-views label {
+    color: $darkgrey;
+}
+
+#tribe-events-content a {
+    color: $primary-accessible;
+}
+
+.tribe-events-calendar td.tribe-events-past div[id*='tribe-events-daynum-'], .tribe-events-calendar td.tribe-events-past div[id*='tribe-events-daynum-'] > a {
+    color: $darkgrey;
+}
+
+.event {
+    &__program-link {
+        padding: rem(10px 0px);
+
+        a {
+            @include karbon();
+
+            color: $black;
+            display: inline-flex;
+            font-size: rem(16px);
+            font-weight: 900;
+
+            svg {
+                margin-left: rem(10px);
+                width: 15px;
+
+                path {
+                    stroke: $black;
+                }
+            }
+        }
+    }
+}
+
+/** Programs **/
+.event-program {
+    background-color: $darkestgrey;
+    color: $white;
+    
+    h2 {
+        color: $primary;
+        font-size: rem(16px);
+        font-weight: 900;
+        margin-bottom: rem(10px);
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: rem(20px);
+        }
+    }
+    
+    h3 {
+        font-size: rem(20px);
+        font-weight: 900;
+        margin-bottom: rem(10px);
+    }
+    
+    &__hero {
+        margin-bottom: rem(20px);
+        padding-top: rem(50px);
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: rem(70px);
+            padding-top: rem(150px);
+        }
+    }
+    
+    &__intro {
+        margin-bottom: rem(20px);
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: rem(70px);
+        }
+
+        h1 {
+            line-height: 1.2;
+            font-size: rem(24px);
+            font-weight: 900;
+            margin-bottom: rem(10px);
+
+            @include media-breakpoint-up(md) {
+                font-size: rem(48px);
+                font-weight: 900;
+            }
+        }
+    }
+    
+    &__card {
+        margin-bottom: rem(40px);
+    }
+    
+    &__performers {
+        margin-bottom: 2rem;
+    }
+    
+    &__performer {
+        padding: rem(40px 30px);
+        border: 1px solid rgba($white, .1);
+
+        @include media-breakpoint-up(md) {
+            padding: rem(20px);
+        }
+        
+        &:not(:last-child) {
+            margin-bottom: rem(20px);
+        }
+        
+        &-image {
+            height: 0;
+            position: relative;
+            padding: 0 20% 100%;
+
+            &-container {
+                margin: 0 auto 1.5rem;
+                
+                @include media-breakpoint-down(sm) {
+                    max-width: rem(120px);
+                }
+            }
+
+            
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-position: center;
+                object-fit: cover;
+            }
+        }
+
+        a {
+            &[aria-expanded="true"] {
+                span {
+                    display: none;
+                }
+                
+                &:after {
+                    content: "collapse";
+                }
+            }
+
+        }
+
+        .collapse.show + a{
+            span {
+                display: none;
+            }
+
+            &:after {
+                content: "collapse";
+            }
+        }
+    }  
+    
+    &__repertoire {
+        @include karbon();
+        
+        background-color: $darkergrey;
+        padding: rem(30px 20px);
+        
+        h3 {
+            margin-bottom: 0;
+        }
+        
+        p + h3, 
+        ul + h3 {
+            margin-top: rem(30px);
+        }
+        
+        ul {
+            padding-left: rem(20px);
+        }
+        
+        li {
+            list-style: disc;
+        }
+    }
+
+    &__show-bio {
+        @include karbon();
+
+        display: block;
+        font-size: rem(14px);
+        font-weight: 800;
+        letter-spacing: .08em;
+        margin-top: rem(10px);
+    }
+}

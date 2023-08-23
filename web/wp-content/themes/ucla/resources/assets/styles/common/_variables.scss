@@ -1,0 +1,151 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$font-main: "Karbon", sans-serif;
+$font-body: "ProximaNova", sans-serif;
+
+$primary: #3183be;
+$primary-accessible: #2a7cb7;
+$yellow: #ffeb03;
+$orange: #f3bb2a;
+$lightblue: #0a93dd;
+$darkblue: #0054a6;
+$grey: #717171;
+$grey-accessible: #686868;
+$lightgrey: #e2e2e2;
+$greylighter: #f0f0f0;
+$darkgrey: #434343;
+$darkergrey: #2A2A2A;
+$darkestgrey: #212121;
+$light: #f2f2f2;
+$light-accessible: #f4f4f4;
+$lighter: #faf8f8;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary": $primary,
+    "primary-accessible": $primary-accessible,
+    "yellow": $yellow,
+    "orange": $orange,
+    "lightblue": $lightblue,
+    "darkblue": $darkblue,
+    "grey": $grey,
+    "grey-accessible": $grey-accessible,
+    "lightgrey": $lightgrey,
+    "darkgrey": $darkgrey,
+    "light": $light,
+    "light-accessible": $light-accessible,
+    "lighter": $lighter,
+    "greylighter": $greylighter
+  ),
+  $theme-colors
+);
+
+// Gradients
+$blue-gradient: linear-gradient(to right, $darkblue 0%, $lightblue 100%);
+$blue-gradient-light: linear-gradient(to right, $primary 0%, $lightblue 100%);
+$blue-gradient-flip: linear-gradient(to left, $darkblue 0%, $lightblue 100%);
+$yellow-gradient: linear-gradient(to right, $orange 0%, $yellow 80%);
+$yellow-gradient-flip: linear-gradient(to left, $orange 0%, $yellow 80%);
+$dark-gradient: linear-gradient(
+  to left,
+  rgba(0, 0, 0, 0.8) 0%,
+  rgba(0, 0, 0, 0) 80%
+);
+$dark-gradient-flip: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 00%,
+    rgba(0, 0, 0, 0.2)
+  )
+  100%;
+$dark-gradient-vertical: linear-gradient(
+  to top,
+  rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0)
+);
+
+/* Base Colors */
+$body-bg: white;
+$text-color: $grey;
+$body-color: $text-color;
+$pre-color: $text-color;
+$link-color: $primary;
+
+// Base Sizing
+$font-size-base: 1.6rem;
+$line-height-base: 1.5;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
+
+// Spacers
+$spacer: 1rem;
+$spacers: ();
+$spacers: (
+  "auto": auto,
+  "0": 0,
+  "t1": (
+    $spacer * 0.25
+  ),
+  "t2": (
+    $spacer * 0.5
+  ),
+  "t3": (
+    $spacer * 0.75
+  ),
+  "1": (
+    $spacer
+  ),
+  "2": (
+    $spacer * 2
+  ),
+  "3": (
+    $spacer * 3
+  ),
+  "4": (
+    $spacer * 4
+  ),
+  "5": (
+    $spacer * 5
+  ),
+  "6": (
+    $spacer * 6
+  ),
+  "7": (
+    $spacer * 7
+  ),
+  "8": (
+    $spacer * 8
+  ),
+  "9": (
+    $spacer * 9
+  )
+);
+
+$sizes: (
+  auto: auto,
+  10: 25%,
+  25: 25%,
+  33: 33.333%,
+  50: 50%,
+  66: 66.666%,
+  75: 75%,
+  90: 90%,
+  100: 100%
+);
+
+$grid-gutter-width: 3rem;
+
+/** workaround for build:production compilation
+    see https://github.com/roots/sage/issues/2017 */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+// <768px	Small
+// >=768px	Medium
+// >=992px	Large
+// >=1200px

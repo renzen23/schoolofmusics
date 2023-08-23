@@ -1,0 +1,32 @@
+.news-load-more {
+  margin: rem(50px) auto;
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding: rem(15px);
+    border: 1px solid theme-color('lightgrey');
+    font-family: $font-main;
+    font-size: rem(14px);
+    color: theme-color('grey');
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: background-color 0.15s;
+
+    &:hover {
+      text-decoration: none;
+      background-color: theme-color('light');
+      transition: background-color 0.15s;
+    }
+  }
+
+  .malinky-ajax-pagination-loading {
+    display: none !important;
+  }
+}
+
+.event-filter {
+  ul:first-child() {
+    margin-bottom: rem(40px);
+  }
+}

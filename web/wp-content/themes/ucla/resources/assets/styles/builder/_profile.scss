@@ -1,0 +1,133 @@
+section.b-profile {
+
+    .profile-row {
+      min-height: 45rem;
+      flex-direction: column;
+      .ie11 & {
+          display: block;
+      }
+
+      @include media-breakpoint-between(md, lg) {
+        flex-direction: row;
+      }
+    }
+
+    .header-wrapper {
+      padding-bottom: 3rem;
+      order: 1;
+      height: auto;
+
+      @include col((
+          xs: 12,
+          lg: 6,
+      ));
+
+      @include media-breakpoint-between(md, lg) {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+    }
+    .secondary-wrapper {
+      order: 2;
+
+      @include col((
+          xs: 12,
+          lg: 6,
+      ));
+
+      @include media-breakpoint-up(lg) {
+        order: 3;
+      }
+
+      @include media-breakpoint-up(xl) {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+
+    .text-wrapper {
+      order: 3;
+      padding-top: 4rem;
+
+      @include col((
+          xs: 12,
+          lg: 6,
+      ));
+
+      @include media-breakpoint-between(lg, xl) {
+        padding-top: 0;
+        order: 2;
+      }
+    }
+
+    .text {
+        @extend .content-tinymce;
+    }
+
+    .tags {
+        .tag {
+            position: relative;
+            background: $light-accessible;
+            color: $grey-accessible;
+            margin-bottom: 2rem;
+            border-radius: 1rem;
+            letter-spacing: .1rem;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            @include padding-y(1em);
+            @include padding-x(1.5rem);
+            @include bold();
+            line-height: 1;
+            margin-right: .4rem;
+            display: inline-flex;
+            z-index: 30;
+        }
+    }
+
+    .subtitle {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        @include bold();
+        @include karbon();
+        margin-bottom: 1rem;
+        margin-top: 2.5rem;
+        letter-spacing: .1rem;
+        color: $primary-accessible;
+    }
+
+    .header {
+        @include karbon();
+        @include light();
+        font-size: 9rem;
+        line-height: .85;
+        color: $primary;
+    }
+
+    .portrait {
+        width: 100%;
+        padding-bottom: 66%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .quote {
+        position: relative;
+        @include karbon();
+        font-size: 2.4rem;
+        @include bold();
+        font-style: italic;
+        padding: 4rem;
+        line-height: 1.1;
+        color: $darkgrey;
+        background: $light;
+        &:before {
+            content: open-quote;
+            position: absolute;
+            left: 1.5rem;
+            top: 1.5rem;
+            font-size: 4.8rem;
+            color: $primary;
+        }
+    }
+}

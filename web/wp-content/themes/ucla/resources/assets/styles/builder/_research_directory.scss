@@ -1,0 +1,15 @@
+.b-research-directory {
+	overflow: visible;
+	@include media-breakpoint-up(md) {
+		min-height: rem(500px);
+	}
+
+	.research-filter {
+		&.research-year {
+			ul {
+				height: rem(300px);
+				overflow: auto;
+			}
+		}
+	}
+}

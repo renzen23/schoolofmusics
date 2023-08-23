@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 24">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Camera);
+      }
+
+      .cls-2 {
+        fill: #717171;
+        fill-rule: evenodd;
+        opacity: 0.78;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Camera">
+      <rect width="32" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Camera" class="cls-1">
+    <rect class="cls-3" width="32" height="24"/>
+    <path id="camera-2" data-name="camera" class="cls-2" d="M9.354,16.673a1.333,1.333,0,1,1,0-2.667h5.333a1.333,1.333,0,0,1,0,2.667Zm9.333-2.667H37.354a2.667,2.667,0,0,1,2.667,2.667V35.34a2.667,2.667,0,0,1-2.667,2.667H10.687A2.667,2.667,0,0,1,8.021,35.34v-16a1.333,1.333,0,0,1,1.333-1.333h6.667a1.333,1.333,0,0,0,1.333-1.333V15.34a1.333,1.333,0,0,1,1.333-1.333Zm8.667,20a7.333,7.333,0,1,0-7.333-7.333,7.333,7.333,0,0,0,7.333,7.333Zm0-13.333a6,6,0,1,1-6,6,6,6,0,0,1,6-6Z" transform="translate(-8.021 -14.007)"/>
+  </g>
+</svg>

@@ -1,0 +1,292 @@
+section.image-mask {
+
+    &.yellow-bg {
+         text {
+            fill: black !important;
+        }
+    }
+
+    &.blue-bg {
+        text {
+            fill: white !important;
+        }
+    }
+
+    &.right {
+        svg.captions {
+            @include left((
+                xs: -1rem !important,
+                md: -1rem !important,
+                lg: 0 !important,
+            ));
+        }
+    }
+
+    &.left {
+        svg.captions {
+            @include left((
+                xs: 1rem !important,
+                md: 1rem !important,
+                lg: 0 !important,
+            ));
+        }
+    }
+
+    /* -------------------------------------------- */
+
+    .image-mask-group {
+        z-index: 3;
+        position: absolute;
+
+        top: 50%;
+        transform: translateY(-50%);
+        overflow: hidden;
+
+        * {
+            border: none;
+            outline: none;
+        }
+
+        .image-mask {
+            @include cover();
+
+            svg.clip-paths {
+                @include cover();
+            }
+
+            svg.captions {
+                @include cover();
+                text {
+                    @include font-size((
+                        xs: 1.8rem,
+                        md: 1.6rem,
+                        lg: 1.2rem,
+                    ));
+                    fill: $darkgrey;
+                }
+            }
+
+            svg.image-groups {
+                position: absolute;
+                left: 0;
+                top: 0;
+
+                g {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    will-change: clip-path;
+                }
+
+                image {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    /* -------------------------------------------- */
+    // HERO
+
+    &.b-hero:not(.no-header) {
+        .container {
+            @include min-height((
+                xs: 42rem,
+                md: 65rem,
+                lg: 80rem,
+            ));
+
+            @include padding-y((
+                xs: 3rem,
+                md: 7rem,
+                lg: 16.5rem,
+            ));
+        }
+
+        .image-mask-group, {
+              @include height((
+                xs: (26/64) * 64rem,
+                md: (52/64) * 64rem,
+                lg: 64rem,
+            ));
+
+            @include width((
+                xs: (26/64) * 134rem,
+                md: (52/64) * 134rem,
+                lg: 134rem,
+            ));
+        }
+
+        &.right.custom-mask .image-mask-group {
+            @include left((
+                xs: 8rem,
+                md: 22rem,
+                lg: 40rem,
+            ));
+        }
+
+        &.right.hero-mask .image-mask-group {
+            @include left((
+                xs: 6rem,
+                md: 24rem,
+                lg: 40rem,
+            ));
+        }
+    }
+
+    // HERO NO HEADER
+    &.b-hero.no-header {
+        .container {
+            @include min-height((
+                xs: 37rem,
+                md: 65rem,
+                lg: 80rem,
+            ));
+
+            @include padding-y(0);
+        }
+
+        .image-mask-group {
+            @include height((
+                xs: (30/64) * 64rem,
+                md: (52/64) * 64rem,
+                lg: 64rem,
+            ));
+
+            @include width((
+                xs: (30/64) * 134rem,
+                md: (52/64) * 134rem,
+                lg: 134rem,
+            ));
+        }
+
+        &.right.custom-mask .image-mask-group {
+            right: unset;
+            @include left((
+                xs: -3rem,
+                md: 5rem,
+                lg: 40rem,
+            ));
+        }
+
+        &.right.hero-mask .image-mask-group {
+            right: unset;
+            @include left((
+                xs: 2.5rem,
+                md: 5rem,
+                lg: 22rem,
+            ));
+        }
+    }
+
+    /* -------------------------------------------- */
+    // INFO CONTENT AND QUOTES
+
+    &.b-info-content, &.b-quotes {
+        .image-mask-group {
+
+            @include top((
+                xs: 3rem,
+                md: 50%,
+            ));
+
+            @include transform((
+                xs: none,
+                md: translateY(-50%),
+            ));
+
+            @include height((
+                xs: (38/64) * 64rem,
+                lg: 64rem,
+            ));
+
+            @include width((
+                xs: (38/64) * 134rem,
+                lg: 134rem,
+            ));
+        }
+
+        &.right .image-mask-group {
+            @include left((
+                xs: -2rem,
+                md: 30rem,
+                lg: 50rem,
+            ));
+        }
+
+        &.left .image-mask-group {
+            @include right((
+                xs: -2rem,
+                md: 30rem,
+                lg: 50rem,
+            ));
+        }
+    }
+
+    /* -------------------------------------------- */
+    // NAVIGATION CAROUSEL
+
+    &.b-navigation-carousel {
+        .image-mask-group {
+
+            @include top((
+                xs: 3rem,
+                lg: 20.7rem,
+            ));
+
+            @include media-breakpoint-up(md) {
+                &.scroll {
+                    top: calc(100% - 12rem);
+                    transform: translateY(-100%);
+                }
+            }
+
+            // @include media-breakpoint-down(sm) {
+            //     display: none;
+            // }
+
+            @include transform((
+                xs: none,
+            ));
+
+            @include height((
+                xs: (38/64) * 64rem,
+                lg: 64rem,
+            ));
+
+            @include width((
+                xs: (38/64) * 134rem,
+                lg: 134rem,
+            ));
+        }
+
+        &.right .image-mask-group {
+            @include left((
+                xs: -2rem,
+                md: 40rem,
+                lg: 48rem,
+            ));
+        }
+
+        &.left .image-mask-group {
+            @include right((
+                xs: -2rem,
+                md: 40rem,
+                lg: 48rem,
+            ));
+        }
+    }
+
+    /* -------------------------------------------- */
+
+    .image-mask-group {
+        .slick-list {
+            height: 100%;
+            .slick-track {
+                height: 100%;
+            }
+        }
+    }
+}
