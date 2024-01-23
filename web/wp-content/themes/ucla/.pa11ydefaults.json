@@ -1,7 +1,0 @@
-{
-    "hideElements": "svg style, svg title",
-    "ignore": [
-      "WCAG2AA.Principle4.Guideline4_1.4_1_1.F77"
-    ],
-    "concurrency": 5
-}
